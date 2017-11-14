@@ -14,7 +14,9 @@ body {
   border-color:transparent;
 }
 .navbar-inverse .navbar-brand{
+  font-family: 'Slabo 27px', serif;
   color:#fff;
+  font-size: 2em;
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{

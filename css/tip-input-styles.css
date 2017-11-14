@@ -1,0 +1,32 @@
+body{
+  height: 100%;
+  width:100%;
+}
+h2{
+  margin-top: -15px;
+  color:white;
+}
+
+.tips{
+  width: 80%;
+  padding: 10px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tip-submit{
+  width: 80%;
+  height:90%;
+  background-color: #fff;
+  color: #6495ED;
+  margin-top: 0px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.disclaimer{
+  margin-left: 10%;
+}

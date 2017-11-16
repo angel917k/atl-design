@@ -2,11 +2,15 @@ body{
   height:100%;
   width:100%;
   background-color: #6495ED;
+  font-family: 'Vollkorn SC', serif;
 }
 
 /*start of nav bar styles*/
-body {
-	padding-top:70px;
+
+.navbar-fixed-top, .navbar-fixed-bottom {
+  position: relative;
+  margin-top: 0px;
+  top: 0px;/* this can also be static */
 }
 
 .navbar-inverse{
@@ -14,12 +18,18 @@ body {
   border-color:transparent;
 }
 .navbar-inverse .navbar-brand{
+  font-family: 'Slabo 27px', serif;
   color:#fff;
+  font-size: 2em;
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
   background-color: transparent;
   border-color:#fff;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form:nth-last-child(3){
+  border-bottom: 1px solid white;
 }
 
 .navbar-inverse .navbar-toggle .icon-bar{
@@ -34,7 +44,6 @@ body {
 }
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
   background-color: transparent;
-  color:red;
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -85,7 +94,7 @@ body {
 .zindex-ear{
   position: absolute;
   left: calc(50% - 125px);
-  margin-top: 25px;
+  margin-top: 5px;
   height: 250px;
   width:250px;
   background-image: url('../img/ear4-rot.png');
@@ -114,6 +123,7 @@ body {
 .large p{
   color:#6495ED;
   font-size: 15px;
+  font-family: 'Vollkorn SC', serif;
 }
 
 
@@ -257,9 +267,13 @@ body {
   margin-top:100px;
   border-radius: 10px;
   background-color: #fff;
+  color:black;
   padding-top: 5px;
   font-size: 22.5px;
-    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.login-anchor:hover{
+  text-decoration: none;
 }
 /*end of Login*/
 
@@ -270,9 +284,13 @@ body {
   margin-top:20px;
   border-radius: 10px;
   background-color: #fff;
+  color:black;
   padding-top: 5px;
   font-size: 22.5px;
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.tip-anchor:hover{
+  text-decoration:none;
 }
 /*end of tip*/
 
@@ -281,9 +299,8 @@ body {
 
 .copyright{
   width: 100%;
-  padding-top:100px;
-  position: fixed;
-  bottom: 0%;
+  padding-top:75px;
+  position: relative;
 }
 
-/*end of copyright stamp*/
+/*end of copyright  stamp*/

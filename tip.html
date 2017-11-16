@@ -11,9 +11,10 @@
   <link rel="stylesheet" href="css/tip-input-styles.css">
   <link href="https://fonts.googleapis.com/css?family=Slabo+27px|Vollkorn+SC" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Barlow:500" rel="stylesheet">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
 </head>
 <body>
-
 
 <!-- start of nav -->
   <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -38,19 +39,30 @@
     	</div> -->
     </div>
   </nav>
-  <!-- end of nav -->
+<!-- end of nav -->
 
-  <!-- start of go back -->
+<!-- start of go back button -->
   <a href="/index.html"><div class="goback"></div></a>
-  <!-- end of go back -->
+<!-- end of go back button -->
 
-  <!-- start of header -->
-  <h1 class="text-center">Login</h1>
-  <!-- end of header -->
+<!-- header -->
+  <h1 class="text-center">Send Anonymous Tip</h1>
 
-  <!-- start of footer -->
+
+<!-- start of form -->
+  <form action="">
+    <textarea id="user-tips" class="tips center-block" name="tip" rows="18" cols="80" placeholder="Enter tip here!..." required></textarea>
+
+    <input type="checkbox" name="disclaimer" value="disclaimer">
+    <label for="disclaimer">I agree to the a.t.l disclaimer</label>
+
+    <input class="tip-submit center-block" type="submit" name="submit" value="Submit Tip">
+  </form>
+<!-- end of form -->
+
+<!-- start of footer -->
   <div class="copyright text-center"><p>Anonymous Tip Line &copy; </p></div>
-  <!-- end of footer -->
+<!-- end of footer -->
 
 <!--start of javascript	 -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

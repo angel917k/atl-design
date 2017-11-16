@@ -300,8 +300,7 @@ body{
 .copyright{
   width: 100%;
   padding-top:100px;
-  position: fixed;
-  bottom: 0%;
+  position: relative;
 }
 
 /*end of copyright stamp*/

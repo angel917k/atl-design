@@ -6,8 +6,11 @@ body{
 }
 
 /*start of nav bar styles*/
-body {
-	padding-top:70px;
+
+.navbar-fixed-top, .navbar-fixed-bottom {
+  position: relative;
+  margin-top: 0px;
+  top: 0px;/* this can also be static */
 }
 
 .navbar-inverse{
@@ -25,6 +28,10 @@ body {
   border-color:#fff;
 }
 
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form:nth-last-child(3){
+  border-bottom: 1px solid white;
+}
+
 .navbar-inverse .navbar-toggle .icon-bar{
   /*background-color: blue;*/
 }
@@ -37,7 +44,6 @@ body {
 }
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
   background-color: transparent;
-  color:red;
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -88,7 +94,7 @@ body {
 .zindex-ear{
   position: absolute;
   left: calc(50% - 125px);
-  margin-top: 25px;
+  margin-top: 5px;
   height: 250px;
   width:250px;
   background-image: url('../img/ear4-rot.png');

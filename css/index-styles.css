@@ -101,7 +101,7 @@ body {
 .zindex-ear {
   position: relative;
   margin: auto;
-  top: 10%;
+  top: 13%;
   height: 190px;
   width: 190px;
   background-image: url("../img/ear4-rot.png");
@@ -110,7 +110,6 @@ body {
   background-repeat: no-repeat;
   animation: fade 6s infinite;
   overflow: hidden;
-  border:1px solid red;
 }
 .bubble {
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2),

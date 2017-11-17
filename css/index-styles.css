@@ -212,7 +212,7 @@ body {
 /*start of window sizing percentages*/
 @media screen and (min-width:900px) and (max-width:1200px){
   .large p{
-    margin-top:-6%;
+    margin-top:-8%;
   }
 }
 @media screen and (max-width: 1650px) and (min-width: 1451px) {

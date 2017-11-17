@@ -264,6 +264,9 @@ body {
     margin-top: 0px;
     margin-left: 77.5%;
   }
+  .large p{
+    margin-top:-4%;
+  }
 }
 
 @media screen and (max-width: 550px) and (min-width: 451px) {

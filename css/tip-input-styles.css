@@ -26,6 +26,9 @@ h1{
   background-size: cover;
 }
 
+.goback:hover{
+  cursor:pointer;
+}
 
  /*tips and submit styles*/
 .tips{

@@ -42,7 +42,12 @@
 <!-- end of nav -->
 
 <!-- start of go back button -->
-  <a href="/index.html"><div class="goback"></div></a>
+  <a onclick="goBack()"><div class="goback"></div></a>
+  <script type="text/javascript">
+    function goBack() {
+      window.history.back();
+    }
+  </script>
 <!-- end of go back button -->
 
 <!-- header -->

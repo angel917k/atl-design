@@ -1,8 +1,13 @@
+@font-face{
+  font-family:Anke;
+  src: url("../Anke/Anke.ttf");
+}
+
 body {
   height: 100%;
   width: 100%;
   background-color: #6495ed;
-  font-family: "Vollkorn SC", serif;
+  font-family: "Anke", serif;
 }
 
 /*start of nav bar styles*/
@@ -128,8 +133,18 @@ body {
 .large p {
   color: #6495ed;
   font-size: 15px;
-  font-family: "Vollkorn SC", serif;
+  font-family: "Anke", serif;
   margin-top: -2%;
+}
+
+.large p div{
+  bottom:10px;
+}
+
+@media screen and (min-width:1100px) {
+  .large p div{
+    bottom:20px!important;
+  }
 }
 
 .medium {

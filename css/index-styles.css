@@ -120,8 +120,8 @@ body{
   padding-top: 160px;
 }
 
-.large p{
-  color:#6495ED;
+.large div span {
+  color:#00ffcc;
   font-size: 15px;
   font-family: 'Vollkorn SC', serif;
 }
@@ -300,7 +300,8 @@ body{
 .copyright{
   width: 100%;
   padding-top:75px;
-  position: relative;
+  position: absolute;
+  bottom: 0px;
 }
 
 /*end of copyright  stamp*/

@@ -8,16 +8,15 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/index-styles.css">
+  <link rel="stylesheet" href="css/tip-input-styles.css">
   <link href="https://fonts.googleapis.com/css?family=Slabo+27px|Vollkorn+SC" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Barlow:500" rel="stylesheet">
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
 </head>
 <body>
 
-
 <!-- start of nav -->
-
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="navbar-header">
       <a class="navbar-brand" href="#">A . T . L .</a>
@@ -29,7 +28,7 @@
     </div>
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li class=""><a href="#">Create Tip Box </a></li>
+        <li class=""><a href="#">Create Tip Box</a></li>
         <li><a href="#about">Tutorial</a></li>
         <li><a href="#contact">Help</a></li>
       </ul>
@@ -40,51 +39,37 @@
     	</div> -->
     </div>
   </nav>
+<!-- end of nav -->
 
-  <!-- end  of nav -->
+<!-- start of go back button -->
+  <a href="/index.html"><div class="goback"></div></a>
+<!-- end of go back button -->
 
-  <!-- start of hero image -->
+<!-- header -->
+  <h1 class="text-center">Send Anonymous Tip</h1>
 
-  <div class="zindex-ear"></div>
-  <div class="large bubble center-block text-center">
-  <p id="curve-text-1"> &#x200b; &#x200b; &#x200b; &#x200b; &#x200b; &#x200b; &#x200b; &#x200b; &#x200b; &#x200b; &#x200b; &#x200b; &#x200b; &#x200b; &#x200b; &#x200b; &#x200b; &#x200b; &#x200b; &#x200b; &#x200b; &#x200b; Anonymous Tip Line</p>
-  </div>
 
-  <div class="medium bubble center-block"></div>
+<!-- start of form -->
+  <form action="">
+    <textarea id="user-tips" class="tips center-block" name="tip" rows="18" cols="80" placeholder="Enter tip here!..." required></textarea>
 
-  <div class="small bubble center-block"></div>
+    <input type="checkbox" name="disclaimer" value="disclaimer">
+    <label for="disclaimer">I agree to the a.t.l disclaimer</label>
 
-<!-- end of hero image -->
-
-<!-- start of login button -->
-
-  <a href="login.html" class="login-anchor">
-    <div class="login center-block">
-      <p class="option-text text-center">Login</p>
-    </div>
-  </a>
-
-<!-- end of login button -->
-
-<!-- start of tip button -->
-
-  <a href="tip.html" class="tip-anchor"><div class="tip center-block">
-    <p class="option-text text-center">Tip</p>
-  </div>
-  </a>
-
-<!-- end of login button -->
+    <input class="tip-submit center-block" type="submit" name="submit" value="Submit Tip">
+  </form>
+<!-- end of form -->
 
 <!-- start of footer -->
-
   <div class="copyright text-center"><p>Anonymous Tip Line &copy; </p></div>
-
 <!-- end of footer -->
+
 <!--start of javascript	 -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/splash.js"></script>
   <script src="js/circletype.min.js"></script>
+  <script src="js/disclaimer.js"></script>
 
 <!-- end of javascript -->
 </body>

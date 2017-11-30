@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/index-styles.css">
   <link rel="stylesheet" href="css/tip-input-styles.css">
+  <link rel="stylesheet" href="css/main.css">
   <link href="https://fonts.googleapis.com/css?family=Slabo+27px|Vollkorn+SC" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Barlow:500" rel="stylesheet">
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
@@ -42,7 +43,7 @@
 <!-- end of nav -->
 
 <!-- start of go back button -->
-  <a href="/index.html"><div class="goback"></div></a>
+  <a onclick="goBack()"><div class="goback"></div></a>
 <!-- end of go back button -->
 
 <!-- header -->
@@ -51,7 +52,7 @@
 
 <!-- start of form -->
   <form action="">
-    <textarea id="user-tips" class="tips center-block" name="tip" rows="18" cols="80" placeholder="Enter tip here!..." required></textarea>
+    <textarea id="user-tips" class="tips center-block" name="tip" rows="18" cols="80" placeholder="Enter tip here..." required></textarea>
 
     <input type="checkbox" name="disclaimer" value="disclaimer">
     <label for="disclaimer">I agree to the a.t.l disclaimer</label>
